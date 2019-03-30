@@ -1,4 +1,4 @@
  function previewFiles(event) {
    console.log(event);
-   document.querySelector(".img").innerText = event.target.files[0];
+   document.querySelector(".img").innerHTML = event.target.files[0];
  }           
