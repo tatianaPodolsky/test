@@ -21,4 +21,4 @@
     if (event.target.files[0]) {reader.readAsDataURL(event.target.files[0]);}
     }
 
-  document.getElementById('takePic').onChange = previewFiles;
+  // document.getElementById('takePic').onChange = previewFiles;
