@@ -12,6 +12,8 @@
 //       img.src = this.result
 //     } 
   function previewFiles() {
+    console.log('func');
+    
     var reader = new FileReader();
     reader.onloadend = function() {
       document.getElementById('img').src = reader.result;
